@@ -1,0 +1,302 @@
+body {
+  font-family: "Exo", sans-serif;
+  color: #282828;
+  font-weight: 500;
+}
+
+.button {
+  background-color: #ff6d6d;
+  text-transform: uppercase;
+  display: block;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 3px solid #ff6d6d;
+  color: #fff;
+  padding: 18px 50px;
+  letter-spacing: 200;
+}
+
+.button:hover {
+  color: #ff6d6d;
+  background: #fff;
+  font-weight: 800;
+  -webkit-transition: 0.3s linear all;
+  transition: 0.3s linear all;
+}
+
+.section {
+  overflow: hidden;
+  padding: 160px 0 170px;
+}
+
+.section__title {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 55px;
+}
+
+.section__title span {
+  color: #ff6d6d;
+}
+
+.section__description {
+  color: #ff6d6d;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.section__text {
+  margin-top: 40px;
+  color: #8a8a8a;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header {
+  background: url("../img/header/bg.jpg");
+  padding: 230px 0;
+}
+
+.header__title {
+  margin-bottom: 50px;
+}
+
+.header__video {
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 60px;
+  line-height: 75px;
+}
+
+.header__decription {
+  font-size: 16px;
+  color: #8c8c8f;
+  margin-top: 20px;
+}
+
+.header button {
+  margin: auto;
+}
+
+.newDesign {
+  background: url("../img/newDesign/right.jpg") no-repeat;
+  background-position: top right;
+  background-size: contain;
+  font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+  .newDesign {
+    background: none;
+  }
+}
+
+.features {
+  background: url("/img/features/bg.jpg") no-repeat;
+  padding: 130px 0 130px;
+  background-size: contain top left;
+}
+
+.features__title {
+  text-align: center;
+}
+
+.features__item {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.features__item img {
+  display: block;
+  margin: auto;
+  margin-bottom: 35px;
+}
+
+.features__item h4 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .features {
+    background: #f6f5f3;
+  }
+}
+
+.responsive {
+  background: url("/img/responsive/mac.png") no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 1200px) {
+  .responsive {
+    background: none;
+  }
+}
+
+@media (max-width: 1334px) {
+  .responsive {
+    background-size: 50%;
+  }
+}
+
+.clients {
+  background: url("/img/clients/bg.jpg") no-repeat;
+}
+
+.clients__item {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.clients__item .img {
+  margin: auto;
+  height: 60px;
+  background: #4e4e5e;
+  width: 60px;
+  margin-bottom: 30px;
+}
+
+.clients__item h4 {
+  font-weight: 500;
+  font-size: 22px;
+  color: #fff;
+}
+
+.clients__item h5 {
+  font-weight: 500;
+  color: #ff6d6d;
+  font-size: 16px;
+}
+
+.clients__item p {
+  font-style: italic;
+  color: #8a8a8a;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .clients {
+    background: #24252b;
+  }
+}
+
+.features2 {
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.features2 .section__text {
+  max-width: 660px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.features2 img {
+  display: block;
+  margin: auto;
+}
+
+.reg {
+  background: #323969;
+  padding: 90px 0 90px;
+}
+
+.reg__title {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.reg__title .section__title {
+  color: #fff;
+}
+
+.reg__title .section__description {
+  color: #ff6d6d;
+  opacity: 100;
+}
+
+.reg input {
+  width: 90%;
+  padding: 15px 25px;
+  background: #464c77;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.reg input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.reg p {
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+  opacity: 0.3;
+}
+
+.reg p a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+@media (max-width: 1199px) {
+  .reg .input {
+    margin-bottom: 30px;
+  }
+  .reg input {
+    width: 100%;
+  }
+}
+
+footer {
+  padding: 80px 0 95px;
+}
+
+footer h5 {
+  font-size: 22px;
+}
+
+footer .logo-block p {
+  color: #8a8a8a;
+}
+
+footer ul {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 15px;
+}
+
+footer ul a {
+  color: #8a8a8a;
+}
+
+footer form {
+  max-width: 260px;
+}
+
+footer form input {
+  padding: 15px 25px;
+  position: relative;
+}
+
+footer form button {
+  border: none;
+  position: absolute;
+  top: 20%;
+  right: 0;
+  background: url(/img/footer/btn.png) no-repeat top left;
+  padding: 0;
+  height: 45px;
+  width: 45px;
+}
+/*# sourceMappingURL=style.css.map */
